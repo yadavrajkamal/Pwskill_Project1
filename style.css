@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.flex-container{
+    display: flex;
+    height: 700px;
+    max-height: 1000px;
+    width: 500px;
+    border: 2px solid black;
+}
+.section1{
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 30%;
+    min-height: 1000px;
+    width:40%;
+}
+.profile{
+    display: flex;
+    background-color: blue;
+    position: relative;
+    height: 180px;
+    width: 100%;
+}
+.imgbox{
+    background: url(Assets/pro.JPG);
+    background-size: cover;
+    position: relative;
+    left: 25%;
+    top: 5%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+h1{
+    position: relative;
+    top: 110px;
+    left: 5px;
+    color: white;
+    font-size: 14px;
+}
+p{
+    font-size: 12px;
+    position: relative;
+    top: 115px;
+    left: 10px;
+    color: white;
+}
+.content{
+    background-color: black;
+    position: relative ;
+    top: 180px;
+    margin-left: -198px;
+    width: 198px;
+    height: 480px;
+
+}
+hr{
+    line-height: 5px;
+}
+h2{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-size: 20px;
+}
+h4{
+    color: white;
+    margin-left: 60px;
+}
+h5{
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px; 
+}
+span{
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    color: aquamarine;
+}
+.email{
+    font-size: 13px;
+}
+.Skill{
+    position: relative;
+    left: 15px;
+}
+.fa-brands{
+    color:white;
+    position: relative;
+    left: 20px;
+}
+.fa-solid{
+    color:white;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+.sub{
+    height: 15px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+}
+.experience{
+    height: 15px;
+    width: 120px;
+    background-color: blue;
+    position: relative;
+    text-align: right;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.experience2{
+    height: 15px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    text-align: right;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.sheat{
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+.fa-html5 , .fa-js{
+    text-align: left;
+    position: relative;
+    left:-80px;
+    top: 1px;
+}
+.fa-css3-alt{
+    text-align: left;
+    position: relative;
+    left:-60px;
+    top: 1px;
+}
+.fa-certificate{
+position: relative;
+left: 120px;
+top: 12px;
+}
+.fa-star{
+    color: white;
+    position: relative;
+    top: 18px;
+    left: 15px;
+}
+.right_side{
+    display: flex;
+}
+.obj{
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 25px;
+    color: blue;
+}
+.about{
+    height: 10px;
+    width: 30px;
+    margin-left: 5px;
+    color: black;
+    text-wrap: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+}
+.workExp{
+    position: relative;
+    top: 180px;
+    color: white;
+    font-size: 25px;
+    color: blue;
+}
+.work{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 25px;
+    color: blue;
+}
+.exp{
+    top: 5px;
+}
+.pro{
+    top: 1px;
+    left: 1px;
+}
+.detail{
+    color: black;
+    left: 10px;
+    top: 5px;
+}
+.edu{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    color: blue;
+}
+.dg{
+    color: black;
+    top: -15px;
+    padding-top: 35px;
+}
